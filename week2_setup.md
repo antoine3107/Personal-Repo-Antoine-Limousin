@@ -73,6 +73,13 @@ This is where the simultaneous use of Visual Studio and GitHub comes into its ow
 
 So we're going to go back to Visual Studio to clone the GitHub repository we're working on. 
 To do this, we click on "Clone repository..." in the Visual Studio start menu, and select the repository you want.
+
+<div align = "center">
+<img src="images/ClonerDepot-1.png" height = "150"/><img src="images/ClonerDepot-2.png" height = "150"/><img src="images/ClonerDepot-3.png" height = "150"/>
+
+<ins>Images 2.5, 2.6 & 2.7 : Follow the steps wisely.</ins>
+</div>
+
 Of course, we'll need to log in to our GitHub account from within Visual Studio.
 
 <b>Now we're all set! We can use Visual Studio and GitHub to build the files we want.</b>
@@ -119,7 +126,13 @@ This will save a phenomenal amount of time.
 <b>2. Get an instant preview of your code</b>
 
 The "Preversion" button in Visual Studio lets you see the result of your code in real time. 
-So there's no need to constantly test your code from another application. Another great time-saver!
+So there's no need to constantly test your code from another application.
+
+<div align = "center">
+<img src="images/Preversion-1.png" height = "150"/><img src="images/Preversion-2.png" height = "150"/>
+
+<ins>Images 3.1 & 3.2 : Another great time-saver!</ins>
+</div>
 
 <b>3. Double-backup</b>
 
@@ -131,6 +144,13 @@ To ensure that your work is synchronised on both platforms, don't forget to push
 <i>What were the difficulties encountered?</i>
 
 We had trouble linking the GitHub repository of the Visual Studio clone. 
+
+<div align = "center">
+<img src="images/Error-1.png" height = "100"/>
+
+<ins>Image 3.3 : Fatal error ! (Source : https://stackoverflow.com/questions/47465644/github-remote-permission-denied)</ins>
+</div>
+
 We had actually cloned the wrong repository.
 So we restarted the configuration from scratch, and this time everything went smoothly.
 
