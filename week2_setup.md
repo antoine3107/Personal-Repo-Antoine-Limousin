@@ -12,7 +12,7 @@ During this semester, we will be working on Visual Studio 2022 & GitHub. These t
 </center>
 </div>
 
-In this article I'm going to explain how I configured these two tools in the best possible way, and what the advantages of using them are.
+In this article we'll going to explain how we configured these two tools in the best possible way, and what the advantages of using them are.
 
 <br>
 
