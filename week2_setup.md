@@ -8,7 +8,7 @@ During this semester, we will be working on Visual Studio 2022 & GitHub. These t
 <center>
 <img src="images/VisualStudioLogo.png" height = "100"/><img src="images/GitHubLogo.png" height = "100"/>
 
-<ins>Visual Studio 2022 & GitHub</ins>
+<ins>Image 1.1 : Visual Studio 2022 & GitHub</ins>
 </center>
 </div>
 
@@ -28,11 +28,13 @@ First we need to install Visual Studio 2022, our text and code writing tool.
 <br>
 <br>
 
+<div align = "center">
 <center>
 <img src="images/InstallationVS-1.png" height = "230"/>
-<br>
-Make sure you get the Community version.
+
+<ins>Image 2.1 : Make sure you get the Community version.</ins>
 </center>
+</div>
 
 <br>
 
