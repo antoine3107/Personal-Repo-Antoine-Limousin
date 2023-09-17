@@ -2,6 +2,8 @@
 
 This section documents your practical work in week 2.
 
+This is a test.
+
 The main requirements are to show that:
 
 1. Your development environment is correctly set up
