@@ -8,7 +8,7 @@ During this semester, we will be working on Visual Studio 2022 & GitHub. These t
 <center>
 <img src="images/VisualStudioLogo.png" height = "100"/><img src="images/GitHubLogo.png" height = "100"/>
 
-<ins>Image 1.1 : Visual Studio 2022 & GitHub</ins>
+<ins>Images 1.1 & 1.2 : Visual Studio 2022 & GitHub</ins>
 </center>
 </div>
 
@@ -39,13 +39,26 @@ First we need to install Visual Studio 2022, our text and code writing tool.
 <br>
 
 Once the installation is complete, we need to log in with our Microsoft account. 
-The application will then ask you to install a number of tools, which can be installed at any time.
+The application will then ask us to install a number of tools, which can be installed at any time.
 
 <br>
 
-To continue, we need to go to the GitHub website to create an account. 
+To continue, we need to go to the GitHub website to log in to our account. 
+
+<div align = "center">
+<img src="images/SignInGitHub.png" height = "230"/>
+
+<ins>Image 2.2 : We can choose a personal account or one linked to the university.</ins>
+</div>
+
 We'll then import the teacher's template, which we'll use as the basis for our portfolio. 
 This is also known as a repository.
+
+<div align = "center">
+<img src="images/ImporterDepot-1.png" height = "230"/><img src="images/ImporterDepot-2.png" height = "230"/>
+
+<ins>Images 2.3 & 2.4 : We recommend that you make the deposit private.</ins>
+</div>
 
 This will allow us to add our personal work over the weeks. There is a section for each week of the course.
 For example, the work expected for week 2 must be included in the "week2_setup.md" file.
