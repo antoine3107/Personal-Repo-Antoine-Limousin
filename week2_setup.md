@@ -4,13 +4,13 @@
 
 During this semester, we will be working on Visual Studio 2022 & GitHub. These two represent our development environment.
 
+<div>
 <center>
-<img src="images/VisualStudioLogo.png" height = "100"/>
-
-<img src="images/GitHubLogo.png" height = "100"/>
+<img src="images/VisualStudioLogo.png" height = "100"/><img src="images/GitHubLogo.png" height = "100"/>
 
 <ins>Visual Studio 2022 & GitHub</ins>
 </center>
+<div>
 
 In this article I'm going to explain how I configured these two tools in the best possible way, and what the advantages of using them are.
 
