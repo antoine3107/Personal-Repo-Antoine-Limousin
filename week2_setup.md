@@ -2,7 +2,7 @@
 
 During this semester, we will be working on Visual Studio 2022 & GitHub. These two represent our development environment.
 
-![Texte alternatif](C:\Users\toino\source\repos\antoine3107\Personal-Repo-Antoine-Limousin\images\VisualStudioLogo.png)
+![Texte alternatif](images/VisualStudioLogo.png)
 
 This section documents your practical work in week 2.
 
