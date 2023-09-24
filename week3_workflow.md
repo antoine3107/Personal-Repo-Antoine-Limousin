@@ -1,4 +1,4 @@
-# Workflow
+# I] GitHub workflow tools
 
 This section documents your practical work in week 3.
 
@@ -29,7 +29,7 @@ GitHub allows you to add comments to pull requests and commits. This facilitates
    * Make a pull request
 	* small test
 
-## Task workflow
+## II] Task completion
 
 Here, you should use screenshots and descriptive commentary to show that the required
 have been completed successfully.
@@ -64,7 +64,7 @@ Finally, I made a pull request.
 * Abbreviate your commentary using (e.g. by using bullet points). Your text should be in
   the form of grammatically correct sentences.
 
-## Reflection
+## III] Reflection
 
 Here, you should highlight any difficulties that you faced in completing the task, and
 how you resolved them.
