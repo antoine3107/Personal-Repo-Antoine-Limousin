@@ -36,6 +36,8 @@ have been completed successfully.
 
 To continue working in an organised way as a team, we've started using the zube.io platform, where we can use a Kanban board.
 
+<img src="images/zube.png" height = "100"/>
+
 This board shows all the existing tasks in a project. These tasks are sorted by category: "Backlog", "Ready", "In Progress", "In Review", "Done".
 
 Among the tasks available, I've selected "As a system administrator, I want to maintain reference values for room type". I immediately placed the card representing this task in the "In Progress" category.
