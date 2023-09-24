@@ -1,51 +1,43 @@
-# Workflow
+# I] GitHub workflow tools
 
-This section documents your practical work in week 3.
+To start with, let's look at the main workflow tools available on GitHub. 
 
-The main requirements are to show that:
+<b>1. Branches.</b>
 
-1. You know how to use the workflow tools in GitHub
-2. You have successfully carried out the required operations which are:
-   * Accept a task from the project backlog
-   * Update the task information appropriately
-   * Update the task board appropriately
-   * Complete the development task on a feature branch
-   * Commit your changes with appropriate comments
-   * Check your work against the Definition of Done (DoD)
-   * Make a pull request
-	* small test
+Branches allow each team member to work on a different version of the project without interfering with the work of others.
 
-## Task workflow
+<b>2. Pull requests.</b>
 
-Here, you should use screenshots and descriptive commentary to show that the required
-have been completed successfully.
+This is a feature that can be used by each team member to propose commits to be integrated into the main branch of the project.
 
-**DO**
+<b>3. Comments.</b>
 
-* Consider the layout of your content from the point of view of the reader. Many raw
-  screenshots will take up a lot of space. It may be better to adopt a different strategy
-  such as
-  * Using thumbnails with links to full-size images
-  * Combining two or more screenshots into a single image 
-  * Using partial screenshots to highlight only the important information
-  * etc.
-* Provide links to the actual objects (e.g. task, pull request, etc.) in the team project
-  in GitHub
-* Read through your work to make sure that the information comes across clearly
+GitHub allows you to add comments to pull requests and commits. This facilitates collaboration, error detection and code quality improvement.
 
-**DON'T**
+<br>
 
-* Use humour or informal language
-* Waste space with trivial or self-evident commentary
-* Abbreviate your commentary using (e.g. by using bullet points). Your text should be in
-  the form of grammatically correct sentences.
+## II] Task completion
 
-## Reflection
+To continue working in an organised way as a team, we've started using the zube.io platform, where we can use a Kanban board.
 
-Here, you should highlight any difficulties that you faced in completing the task, and
-how you resolved them.
+<center>
+<img src="images/zube.png" height = "100"/>
+</center>
 
-You should also briefly discuss the current process and how it could be refined or
-improved in future iterations. For example, is the DoD adequate or too onerous? Is the
-current procedure for updating the task appropriate? Is the task board configured to
-work in an intuitive way?
+This board shows all the existing tasks in a project. These tasks are sorted by category: "Backlog", "Ready", "In Progress", "In Review", "Done".
+
+Among the tasks available, I've selected "As a system administrator, I want to maintain reference values for room type". 
+
+<center>
+<img src="images/Kanban-1.png" height = "100"/>
+</center>
+
+I immediately placed the card representing this task in the "In Progress" category.
+
+<center>
+<img src="images/Kanban-2.png" height = "100"/>
+</center>
+
+To complete this task, I created a branch on which I wrote my code. Once development was complete, I committed the changes by bringing my code back to the main branch.
+
+Finally, I made a pull request.
