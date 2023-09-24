@@ -13,6 +13,7 @@ The main requirements are to show that:
    * Commit your changes with appropriate comments
    * Check your work against the Definition of Done (DoD)
    * Make a pull request
+	* small test
 
 ## Task workflow
 
