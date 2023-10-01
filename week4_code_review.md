@@ -1,25 +1,57 @@
-# Code review
+```
+using System;
 
-This section documents your practical work from week 4 in which you attempt a series of 
-code review challenges. For your portfolio, do the following:
+namespace MyApplication
+{
+  class Program
+  {
+    static bool check(Int i) 
+    {
+        if (i % 2 == 0)
+        {
+            return true;
+        }
+        return false;
+    }
 
-1. Choose the code review challenge which best demonstrates your skills.
-2. Copy the code into your portfolio using a Markdown
-   [fenced code block](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks).
-3. Provide some descriptive commentary that identifies the problems.
-4. Show your improved version of the code in a second code block.
-5. Explain in one or more paragraphs why your solution is a good one.
+    static void Main(string[] args)
+    {
+        //... Code not shown - ignore this line
+    }  
+  }
+}
+```
 
-**DO**
+Comments on the problems
+Incorrect method name: The check method uses a capital letter for the argument type (Int instead of int), which is incorrect in C#. The type should be lowercase (int).
 
-* Use grammatically correct sentences and paragraphs for your commentary.
-* Make clear reference to the code in your commentary. GitHub Markdown does not support
-  line numbers and so you need to make sure that the reader knows which line you are
-  referring to from your description.
-* Refer to recognised principles or rules when describing your solution. "I thought it
-  would be better that way" is not sufficient: you need to have specific reasons.
+Redundancy in the method: The check method contains unnecessary redundancy. It could be simplified to make the code more readable.
 
-**DON'T**
+I will now create an improved version of the code and explain the improvements in the next step.
 
-* Include multiple examples. Make the decision about which example shows your best
-  work and use that one.
+```
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static bool IsEven(int number) 
+        {
+            return number % 2 == 0;
+        }
+
+        static void Main(string[] args)
+        {
+            //... Code not shown - ignore this line
+        }
+    }
+}
+```
+
+Explanation of improvements
+Corrected method name: I've corrected the method name in IsEven to follow the naming conventions in C# where method names start with an uppercase letter.
+
+Redundancy removed: I've removed the redundancy in the IsEven method. Instead of using an if structure to check whether a number is even and return true or false, I've directly returned the result of the expression number % 2 == 0. This simplifies the code and makes it more readable.
+
+This improved version of the code conforms more closely to C# coding conventions and eliminates unnecessary redundancy. It is more concise and easier to understand.
