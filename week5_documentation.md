@@ -1,3 +1,5 @@
+## Clean code rules
+
 Here are six "clean code" rules, and explanations for each of them: 
 
 I] Meaningful names :
@@ -6,6 +8,34 @@ Rule: Choose variable, function and class names that are descriptive and meaning
 Avoid short or obscure names.
 
 Explanation: Clear, explicit names make the code easier to understand, which in turn makes it more readable and maintainable.
+
+```
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static bool check(Int i) 
+    {
+        if (i % 2 == 0)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    static void Main(string[] args)
+    {
+        //... Code not shown - ignore this line
+    }  
+  }
+}
+```
+
+For this code extract, the most relevant of the six 'clean code' rules would be the significant name rule. 
+The name of the check function could be more descriptive to clearly reflect its purpose. 
+For example, by using isEven, the name becomes more explicit, which improves the readability and understanding of the code without requiring any additional comments.
 
 II] Short functions :
 
@@ -35,6 +65,57 @@ Avoid components that do too many things.
 
 Explanation: Separating concerns makes code easier to understand, maintain and reuse. 
 Each component has a clear purpose.
+
+```
+class Car
+{
+  public string carModel;
+
+  // Constructeur de la classe
+  public Car()
+  {
+    carModel = "Mustang"; // Définir la valeur initiale pour carModel
+  }
+
+  static void Main(string[] args)
+  {
+    Car Ford = new Car();
+    Console.WriteLine(Ford.carModel);
+  }
+}
+```
+
+For this code extract, another relevant rule among the six "clean code" rules would be the separation of concerns rule. 
+In this extract, the Car class manages both the class definition and the display of a specific car model.
+
+It would be preferable to separate these concerns by using a separate method to display the car model. 
+Here is a modified version that respects this rule:
+
+```
+class Car
+{
+  public string model;
+
+  public Car()
+  {
+    model = "Mustang";
+  }
+
+  public void DisplayModel()
+  {
+    Console.WriteLine(model);
+  }
+
+  static void Main(string[] args)
+  {
+    Car Ford = new Car();
+    Ford.DisplayModel();
+  }
+}
+```
+
+With this modification, the Car class now focuses on the definition of the class itself, while the DisplayModel function manages the display of the car model. 
+This separates the concerns and makes the code more modular and easier to understand.
 
 VI] Unit testing :
 
