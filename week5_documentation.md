@@ -44,6 +44,96 @@ Ideally, they should be no longer than a few lines.
 
 Explanation: Short functions are easier to understand and test. They encourage code reuse and make bugs easier to spot.
 
+In this extract, the Register and Login methods are relatively short and don't do much, which is good practice in itself. 
+However, it is always possible to go further in breaking down the functions to make them even shorter and more focused. 
+This approach can make the code easier to understand and maintain.
+
+```
+public void Register(string username, string password)
+{
+  var salt = CreateSalt();
+  var hashedPassword = HashPassword(password, salt);
+  SaveToDatabase(username, hashedPassword, salt);
+}
+
+public bool Login(string username, string password)
+{
+  var user = GetUserFromDatabase(username);
+  var hashedPassword = HashPassword(password, user.Salt);
+  return IsPasswordValid(user.HashedPassword, hashedPassword);
+}
+
+private string CreateSalt()
+{
+  // Logique de création du sel
+}
+
+private string HashPassword(string password, string salt)
+{
+  // Logique de hachage du mot de passe
+}
+
+private bool IsPasswordValid(string savedHashedPassword, string inputHashedPassword)
+{
+  return savedHashedPassword == inputHashedPassword;
+}
+
+private User GetUserFromDatabase(string username)
+{
+  // Logique de récupération de l'utilisateur depuis la base de données
+}
+
+private void SaveToDatabase(string username, string hashedPassword, string salt)
+{
+  // Logique de sauvegarde des données dans la base de données
+}
+```
+
+Here is a modified version to illustrate this:
+
+```
+public void Register(string username, string password)
+{
+  var salt = CreateSalt();
+  var hashedPassword = HashPassword(password, salt);
+  SaveToDatabase(username, hashedPassword, salt);
+}
+
+public bool Login(string username, string password)
+{
+  var user = GetUserFromDatabase(username);
+  var hashedPassword = HashPassword(password, user.Salt);
+  return IsPasswordValid(user.HashedPassword, hashedPassword);
+}
+
+private string CreateSalt()
+{
+  // Logique de création du sel
+}
+
+private string HashPassword(string password, string salt)
+{
+  // Logique de hachage du mot de passe
+}
+
+private bool IsPasswordValid(string savedHashedPassword, string inputHashedPassword)
+{
+  return savedHashedPassword == inputHashedPassword;
+}
+
+private User GetUserFromDatabase(string username)
+{
+  // Logique de récupération de l'utilisateur depuis la base de données
+}
+
+private void SaveToDatabase(string username, string hashedPassword, string salt)
+{
+  // Logique de sauvegarde des données dans la base de données
+}
+```
+
+By breaking down the functions further, each function now has a very specific task, which makes them shorter and easier to understand, in line with the rule of short functions.
+
 III] Relevant comments :
 
 Rule: Use comments to explain the why, not the how. 
