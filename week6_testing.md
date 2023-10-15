@@ -9,7 +9,8 @@ It updates the hangman image, displays the hidden word and updates the number of
 <div align = "center">
 <center>
 
-<img src="images/hangman.png" height = "100"/>
+<img src="images/hangman.png" height = "300"/>
+
 <ins>Image 1.1 : Hangman Game Menu</ins>
 
 </center>
