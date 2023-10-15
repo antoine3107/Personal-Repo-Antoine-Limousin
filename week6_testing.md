@@ -5,6 +5,16 @@
 The code I have modified and tested involves resetting the display of a hangman game. 
 It updates the hangman image, displays the hidden word and updates the number of remaining attempts.
 
+
+<div align = "center">
+<center>
+
+<img src="images/hangman.png" height = "100"/>
+<ins>Image 1.1 : Hangman Game Menu</ins>
+
+</center>
+</div>
+
 Here is the code I worked on, before and then after the changes made.
 
 ```
